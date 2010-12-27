@@ -1,0 +1,30 @@
+<div id="sidebar">
+
+<h1>History</h1>
+<div style="height: 45px;">
+<ul id="history" class="horizontal">
+	<li></li>
+</ul>
+</div>
+
+<h1>Cart</h1>
+<h4 style="display:inline;">Items:</h4> <span id="item-count"></span>&nbsp;&nbsp;&nbsp;
+<h4 style="display:inline;">Total:</h4> <span id="item-total"></span>
+<table width="95%">
+	<tr>
+		<th>Product</th>
+		<th>Qty</th>
+		<th>Price</th>
+		<th></th>
+	</tr>
+	<tbody id="cart"></tbody>
+	
+</table>
+<br>
+<ul class="horizontal float-right">
+	<li><input type="submit" value="Remove" class="button" id="remove"
+		onclick="javascript:removeCartItems();" />
+	<li><input type="submit" value="CheckOut" class="button" id="checkout"
+		onclick="" />
+</ul>
+</div>

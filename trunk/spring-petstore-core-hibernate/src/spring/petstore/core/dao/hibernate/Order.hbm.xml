@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 30, 2007 12:22:20 PM by Hibernate Tools 3.2.0.beta8 -->
+<hibernate-mapping>
+    <class name="spring.petstore.core.model.Order" table="order">
+        <comment></comment>
+        <id name="id" type="long">
+            <column name="id" precision="10" scale="0" />
+            <generator class="assigned" />
+        </id>
+        <set name="orderLines" inverse="true">
+            <key>
+                <column name="order_id_fk" precision="10" scale="0" not-null="true">
+                    <comment></comment>
+                </column>
+            </key>
+            <one-to-many class="spring.petstore.core.model.OrderLine" />
+        </set>
+    </class>
+</hibernate-mapping>

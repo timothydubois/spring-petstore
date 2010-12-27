@@ -1,0 +1,15 @@
+<!DOCTYPE dwr PUBLIC
+    "-//GetAhead Limited//DTD Direct Web Remoting 1.0//EN"
+    "http://www.getahead.ltd.uk/dwr/dwr10.dtd">
+
+<dwr>
+	<allow>
+		<convert converter="hibernate3" match="spring.petstore.core.model.*" />
+		<convert converter="bean"
+			match="spring.petstore.ui.dwr.model.*" />
+		<create creator="spring" javascript="pets"
+			scope="application">
+			<param name="beanName" value="dwrService" />
+		</create>
+	</allow>
+</dwr>
