@@ -1,0 +1,80 @@
+* {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	cursor: default;
+}
+
+body,html {
+	background-color: rgb(225, 230, 233);
+	margin: 0;
+	font-family: verdana;
+	font-size: 11px;
+}
+
+td {
+	font-size: 11px;
+}
+
+.header {
+	background-color: #F3F5F6;
+	border: 1px solid white;
+	padding: 5px 6px;
+	position: relative;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 12px;
+}
+
+hr {
+	color: gray;
+}
+
+img.large {
+	border: 1px solid black;
+	width: 100px;
+	height: 100px;
+}
+
+img.medium {
+	width: 60px;
+	height: 60px;
+	border: 1px solid black;
+	margin: 5px;
+}
+
+img.small {
+	border: 1px solid black;
+	width: 30px;
+	height: 30px;
+	margin: 4px;
+}
+
+.content-area {
+	margin: 0 0 1px;
+	border-bottom: 5px solid #f3f5f6;
+	background-color: #e6ebed;
+}
+
+.ToolTip {
+	z-index: 999;
+	border: 1px solid #000000;
+	background: #ffffff;
+	padding: 3px;
+}
+
+.b-step-overview-heading {
+	background-color: white;
+	display: block;
+	font-weight: bold;
+	font-size: 12px;
+	color: #666;
+	padding: 3px;
+	margin-top: 8px;
+	margin-bottom: 6px;
+}
+
+tr.selected {
+	background-color: yellow;
+}
