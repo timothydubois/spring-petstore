@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+<wb-module deploy-name="spring-petstore-client-dwr-2">
+<wb-resource deploy-path="/" source-path="/WebContent"/>
+<wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/spring-petstore-core/lib/spring.jar">
+<dependency-type>uses</dependency-type>
+</dependent-module>
+<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/spring-petstore-core/lib/commons-logging-1.1.jar">
+<dependency-type>uses</dependency-type>
+</dependent-module>
+<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/spring-petstore-core-hibernate/lib/antlr-2.7.6.jar">
+<dependency-type>uses</dependency-type>
+</dependent-module>
+<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/spring-petstore-core-hibernate/lib/commons-collections-2.1.1.jar">
+<dependency-type>uses</dependency-type>
+</dependent-module>
+<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/spring-petstore-core-hibernate/lib/dom4j-1.6.1.jar">
+<dependency-type>uses</dependency-type>
+</dependent-module>
+<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/spring-petstore-core-hibernate/lib/hibernate3.jar">
+<dependency-type>uses</dependency-type>
+</dependent-module>
+<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/spring-petstore-core-hibernate/lib/jta.jar">
+<dependency-type>uses</dependency-type>
+</dependent-module>
+<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/spring-petstore-core/lib/cglib-nodep-2.1_3.jar">
+<dependency-type>uses</dependency-type>
+</dependent-module>
+<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/spring-petstore-core/lib/commons-dbcp-1.2.2.jar">
+<dependency-type>uses</dependency-type>
+</dependent-module>
+<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/spring-petstore-core/lib/commons-pool-1.3.jar">
+<dependency-type>uses</dependency-type>
+</dependent-module>
+<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/spring-petstore-core/lib/hsqldb.jar">
+<dependency-type>uses</dependency-type>
+</dependent-module>
+<dependent-module deploy-path="/WEB-INF/lib" handle="module:/resource/spring-petstore-core-hibernate/spring-petstore-core-hibernate">
+<dependency-type>uses</dependency-type>
+</dependent-module>
+<dependent-module deploy-path="/WEB-INF/lib" handle="module:/resource/spring-petstore-core/spring-petstore-core">
+<dependency-type>uses</dependency-type>
+</dependent-module>
+<property name="java-output-path" value="build/classes"/>
+<property name="context-root" value="pets2"/>
+</wb-module>
+</project-modules>

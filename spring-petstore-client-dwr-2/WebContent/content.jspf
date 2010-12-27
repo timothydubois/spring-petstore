@@ -1,0 +1,24 @@
+<div id="main">
+
+<p class="align-right"><strong>Select animal : </strong><select
+	id="item-category" onchange="javascript:showCategoryItems()"></select>
+</p>
+<div id="item-details" style="display: none;">
+<h3 id="item-name">Image and text</h3>
+<img id="detail-image" src="" class="float-left" />
+<p id="item-description"></p>
+<ul class="horizontal float-right">
+	<li><input type="submit" value="Close" class="button" id="close"
+		onclick="javascript:showCategoryItems();" />
+	<li><input type="submit" value="Order" class="button" id="order"
+		onclick="javascript:addItem(currItemId);" />
+</ul>
+</div>
+<div id="item-listing">
+<ul id="listing" class="horizontal">
+	<li></li>
+</ul>
+</div>
+
+
+</div>
